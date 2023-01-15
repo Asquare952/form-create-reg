@@ -11,8 +11,9 @@ form{
 #holder{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 40%;
-    height: 700px;
+    height: 750px;
     margin: 0 auto;
+    padding: 1rem;
 }
 #tittle{
     padding: 1rem;
