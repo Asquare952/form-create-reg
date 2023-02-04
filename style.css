@@ -3,44 +3,78 @@
     margin: 0;
     box-sizing: border-box;
 }
-form{
-    margin: 3rem;
+.wrapper{
+    display: flex;
+    justify-content: center;
     /* text-align: center; */
-    /* width: 100%; */
+    min-height: 80vh;
+    margin: 2rem;
 }
-#holder{
+.container{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 40%;
-    height: 750px;
-    margin: 0 auto;
-    padding: 1rem;
+    /* width: 80%; */
+    padding: 2rem;
 }
 #tittle{
     padding: 1rem;
     padding-left: .9px;
 }
 #sign{
-    padding-left: 2rem;
-    
+    margin-bottom: 1rem;
 }
-#holder > div{
-    padding: 1rem;
-    margin: 10px;
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.9rem;
 }
-#holder > div > input{
-    width: 90%;
-    padding: 0.9rem;
-    border-radius: 5px;
-    margin-top: 9px;
-    padding-left: 5rem;
+input{
+    padding: .5rem;
 }
-#btn button{
-    padding: .6rem;
-    width: 90%;
+label{
+    margin-bottom: 0.6rem;
+}
+.btn-signup{
+    padding: .5rem;
+    width: 100%;
     background-color: rgb(85, 17, 85);
     color: white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
     border: none;
+}
+.btn-wrapper{
+    margin-bottom: 3rem;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    color: gray;
+}
+.social-icon{
+    margin: 1.5rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.fa-facebook-official {
+  color: blue;
+}
+.fa-twitter {
+  color: dodgerblue;
+}
+@media (mi-hight: 450px) {
+    .container{
+        margin: 1rem;
+    }
+    .list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
